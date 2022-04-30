@@ -5,19 +5,19 @@ const Form = () => (
     <input className="Author" type="text" placeholder="Author Name" required />
     <select name="category">
       <option value="" hidden>
-        Category
+        Author
       </option>
-      <option value="Action">
-        Action
+      <option value="Agatha Christie">
+        Agatha Cristie
       </option>
-      <option value="Sci-fi">
-        Science Fiction
+      <option value="Oscar Wilde">
+        Oscar Wilde
       </option>
-      <option value="economy">
-        Economy
+      <option value="Arthur Schoppenhauer">
+        Arthur Schoppenhauer
       </option>
-      <option value="Coding">
-        Coding
+      <option value="Virginia Woolf">
+        Virginia Woolf
       </option>
     </select>
 
