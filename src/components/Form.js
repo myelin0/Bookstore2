@@ -2,7 +2,6 @@ const Form = () => (
   <form>
     <h1>ADD NEW BOOK</h1>
     <input className="Title" type="text" placeholder="Book Title" required />
-    <input className="Author" type="text" placeholder="Author Name" required />
     <select name="category">
       <option value="" hidden>
         Author
@@ -20,6 +19,7 @@ const Form = () => (
         Virginia Woolf
       </option>
     </select>
+    <button type="submit">ADD BOOK</button>
 
   </form>
 );
